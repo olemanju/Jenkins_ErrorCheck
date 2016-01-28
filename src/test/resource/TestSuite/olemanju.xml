@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object test example">
+<!-- <parameter name="url" value=""/>
+<parameter name="browserType" value=""/> -->
+  <test name="Regression 1">
+    <classes>
+      <class name="com.pp.tests.LoginPageTest"/>
+      <class name="com.pp.tests.EnrollPageTest"></class>
+    </classes>
+  </test>
+</suite>
